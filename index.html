@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/6cb8c7a585.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="menu-button"><i class="fas fa-bars"></i></div>
+        <nav tabindex="1" class="sidenav">
+            <div class="close-button"><i class="fas fa-times"></i></div>
+            <ul class="sidenav-items">
+                <li class="sidenav-option"><button type="button" class="modal1">통계</button></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal">
+        <div tabindex="1" class="modal-content">
+            <div class="modal-close-button"><i class="fas fa-times"></i></div>
+            
+        </div>
+    </div>
+    <article class="main-container">
+        <div class="container-flexbox">
+            <div class="left">
+                <section class="left-top">
+                    <div class="total">
+                        <h1>남은 금액</h1>
+                        <div>1,000,000 원</div>
+                    </div>
+                    <div class="daily-use">
+                        <p>오늘 지출</p>
+                        <div>- 30,000 원</div>
+                        <p>오늘 수입</p>
+                        <div>+ 30,000 원</div>
+                    </div>
+                </section>
+                <section class="left-bottom">
+                    <form action="">
+                        <div class="dropdown1">
+                            <button type='button' class="dropdown-toggle1">수입, 지출</button>
+                            <ul class="dropdown-menu1">
+                                <li class="dropdown-item1"><button type='button' value="1" class="dropdown-option1">수입</button></li>
+                                <li class="dropdown-item1"><button type='button' value="2" class="dropdown-option1">지출</button></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown2">
+                            <button type='button' class="dropdown-toggle2">카테고리</button>
+                            <ul class="dropdown-menu2">
+                                <li class="dropdown-item2"><button type='button' value="1" class="dropdown-option2">카테고리 1</button></li>
+                                <li class="dropdown-item2"><button type='button' value="2" class="dropdown-option2">카테고리 2</button></li>
+                            </ul>
+                        </div>
+                        <input type="text" name="money" class="money" placeholder="금액을 입력하세요.">
+                        <input type="submit" class="submit disabled" value="입력완료">
+                    </form>
+                </section>
+            </div>
+            
+    
+            <section class="right">
+    
+            </section>
+        </div>
+        
+    </article>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
