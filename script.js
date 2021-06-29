@@ -63,7 +63,7 @@ function setOption1() {
 const toggle2 = document.querySelector('.dropdown-toggle2');
 const menu2 = document.querySelector('.dropdown-menu2');
 const items2 = document.querySelectorAll('.dropdown-item2');
-
+const submitBtn = document.querySelector('.submit')
 
 toggle2.addEventListener('click', function(){
     menu2.classList.toggle('show');
